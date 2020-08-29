@@ -2,7 +2,7 @@ window.onload = function () {
   canv = document.getElementById("gc");
   ctx = canv.getContext("2d");
   document.addEventListener("keydown", keyPush);
-  setInterval(game, 1000 / 15);
+  setInterval(game, 1000 / 10);
 };
 px = py = 10;
 gs = tc = 20;
